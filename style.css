@@ -1,0 +1,104 @@
+.center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:rgb(136, 131, 131);
+     border-radius: 15px;
+  }
+
+  body{
+     margin: 0;
+     padding: 0;
+     font-family: ;
+     background: linear-gradient();
+     height: 100vh;
+     background: url(ss.png) ;
+     background-repeat: no-repeat, repeat;
+     background-size: cover;
+  }
+
+  .center h1{
+      text-align: center;
+      color: white;
+      border-bottom: 2px solid silver;
+  }
+
+  .center form{
+      padding:0 40px;
+      }
+
+
+  .textfield:hover{
+         color: tan;
+         border-bottom: 2px solid white;
+  }
+  
+
+ form .textfield
+ {
+     position: relative;
+     margin:30px 0;
+     color: rgb(179, 181, 187);
+     
+ }
+
+ .textfield input{
+     background:none;
+     border:none;
+}
+
+
+.forpass a{
+    color: silver;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.forpass a:hover{
+    text-decoration:underline;
+    color: slateblue;
+    transition: 0.5s;
+}
+
+input[type="submit"]{
+    margin: 15px 10px;
+    width:100%;
+    height: 40px;
+    border-radius:25px ;
+    border: slateblue;
+    background: slateblue;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+
+    
+}
+
+
+input[type="submit"] :hover{
+    border: 2px skyblue;
+    background: white;
+    color: white;
+    
+
+}
+
+.signup{
+    color:silver;
+    font-size: 16px;
+    text-align: center;
+    padding:15px 0px;
+}
+
+.signup a{
+    color: slateblue;
+    text-decoration: none;
+}
+ .signup a:hover{
+     text-decoration: none;
+ }
+
+
